@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+   
+    <nav>
+        <a class="navbar-brand" href="home.html"><img src="juit-lostfound-high-resolution-logo-transparent.png" alt="logo" style="height: 100px; width: 90px; padding-top: 15px;"></a>
+        <ul id='navbar'>
+            <li class="nav-item active">
+                <a class="nav-link" href="home.html">STORE <span class="sr-only"></span></a>
+            </li>
+            <li>
+                <a class="btn" href="login.html">LOGIN</a>
+            </li>
+                <li>
+                    <a class="btn" href="cart.html"><img src="cart.png" alt="logo" style="height: 27px; width: 30px;"></a>
+                </li>
+        </ul>
+    </nav>
+
+    <div class="content-wrapper">
+        <div class="image-container">
+            <img src="https://plus.unsplash.com/premium_vector-1704296370779-594f4276638e?bg=FFFFFF&q=80&w=1800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </div>
+        <div class="login-container">
+            <h1 align="center" style="padding-left: 100px;">Welcome JUIT !</h1><br>
+            <h2 style="padding-left: 100px;">Login</h2><br>
+            <br>
+            <form action="process_login.php" method="post" style="padding-left: 100px;">
+                <input type="text" placeholder="Username" name="username" required>
+                <input type="password" placeholder="Password" name="password" required>
+                <button type="submit">Log In</button>
+            </form>
+        </div>
+    </div>
+    <div class="footerr">
+        <h2 align="center" class="ft">Contact us</h2>
+        <br>
+        
+        <p align="center" class="ft">xyz@gmail.com | 9812567845</p>
+
+     </div>
+
+</body>
+</html>

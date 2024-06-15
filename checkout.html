@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+   
+    <nav>
+        <a class="navbar-brand" href="home.html"><img src="juit-lostfound-high-resolution-logo-transparent.png" alt="logo" style="height: 100px; width: 90px; padding-top: 15px;"></a>
+<span class="navbar-toggler-icon"></span>
+</button>
+          <ul id='navbar'>
+            <li class="nav-item active">
+                <a class="nav-link" href="home.html">STORE <span class="sr-only"></span></a>
+              </li>
+            <li>
+                <a class="btn" href="login.html">LOGIN</a>
+            </li>
+            <div class="form-inline my-2 my-lg-0">
+            <!-- <li><a href="cart.html"> 
+                <img  id="cart-icon" src="cart.png">
+            </a>
+    </li>-->
+    <li>
+        <a class="btn" href="cart.html"><img src="cart.png" alt="logo" style="height: 27px; width: 30px;"></a>
+    </li>
+            </div>
+          </ul>
+        </div>
+    </nav>
+
+    <br><br>
+    <div class="checkout-container">
+        <h1 align="center">Checkout</h1>
+        <div class="order-summary">
+            <h3>Order Summary</h3>
+            <ul>
+                <li>Laptop (Qty: 1) - Rs 54990</li>
+                <li>Charger (Qty: 1) - Rs 5000</li>
+            </ul>
+            <p>Total: Rs 59990</p>
+        </div>
+        <div class="customer-details">
+            <h2 align="center">Customer Details</h2>
+            <form action="process_order.php" method="post">
+                <input type="text" placeholder="Full Name" name="full_name" required>
+                <input type="email" placeholder="Email Address" name="email" required>
+                <input type="text" placeholder="Shipping Address" name="shipping_address" required>
+                <input type="text" placeholder="City" name="city" required>
+                <input type="text" placeholder="Postal Code" name="postal_code" required>
+                <!-- Add more fields (phone number, country, etc.) as needed -->
+                <button type="submit">Place Order</button>
+            </form>
+        </div>
+    </div><br>
+    <div class="footerr">
+        <h2 align="center" class="ft">Contact us</h2>
+        <br>
+        
+        <p align="center" class="ft">xyz@gmail.com | 9812567845</p>
+
+     </div>
+</body>
+</html>

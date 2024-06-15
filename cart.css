@@ -1,0 +1,161 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+
+/* Cart icon */
+#cart-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* Box element styles */
+.box-element {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Button styles */
+.btn-outline-dark {
+    border: 1px solid #333;
+    color: #000000;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    
+}
+
+.btn-outline-dark:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.btn-success {
+    background-color: rgb(126, 73, 73);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Cart row styles */
+.cart-row {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.row-image {
+    max-width: 80px;
+    max-height: 80px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Quantity input styles */
+.quantity-input {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+/* Add more styling as needed */
+
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(126, 73, 73);
+    padding-left: 40px;
+    padding-right: 40px;
+	height: 100px;
+    
+    } 
+ #navbar{
+      display: flex;
+      align-items: right;
+      justify-content: right;
+
+    }
+#navbar li {
+      list-style: none;
+      padding: 15px;
+      position: relative;
+	  color: blanchedalmond
+
+    }
+#navbar li a{
+      text-decoration: none;
+      font-size: 20px;
+      color: blanchedalmond;
+    }
+.navbar-brand{
+	position: relative;
+	color: blanchedalmond;
+	font-size: 40px;
+	font-family: 'Courier New', Courier, monospace;
+	text-decoration: none;
+	
+}
+
+.nav-link{
+	position: relative;
+	color: blanchedalmond;
+	font-size: 10px;
+	font-family: 'Courier New', Courier, monospace;
+	text-decoration: none;
+}
+.btn{
+    position: relative;
+	color: blanchedalmond;
+	font-size: 10px;
+	font-family: 'Courier New', Courier, monospace;
+	text-decoration: none;
+}
+
+.footerr{
+    background-color:rgb(126, 73, 73) ;
+    padding: 1px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  .ft{
+    margin: 2px;
+    color: #fff;
+  }

@@ -1,0 +1,118 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Checkout container */
+.checkout-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1, h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Form input styles */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Submit button styles */
+button {
+    background-color: rgb(126, 73, 73);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d45e80;
+}
+
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(126, 73, 73);
+    padding-left: 40px;
+    padding-right: 40px;
+	height: 100px;
+    
+    } 
+ #navbar{
+      display: flex;
+      align-items: right;
+      justify-content: right;
+
+    }
+#navbar li {
+      list-style: none;
+      padding: 15px;
+      position: relative;
+	  color: blanchedalmond
+
+    }
+#navbar li a{
+      text-decoration: none;
+      font-size: 20px;
+      color: blanchedalmond;
+    }
+.navbar-brand{
+	position: relative;
+	color: blanchedalmond;
+	font-size: 40px;
+	font-family: 'Courier New', Courier, monospace;
+	text-decoration: none;
+	
+}
+
+.nav-link{
+	position: relative;
+	color: blanchedalmond;
+	font-size: 10px;
+	font-family: 'Courier New', Courier, monospace;
+	text-decoration: none;
+}
+.btn{
+    position: relative;
+	color: blanchedalmond;
+	font-size: 10px;
+	font-family: 'Courier New', Courier, monospace;
+	text-decoration: none;
+}
+
+.footerr{
+    background-color:rgb(126, 73, 73) ;
+    padding: 1px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+.ft{
+    margin: 2px;
+    color: #fff;
+
+}
